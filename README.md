@@ -9,7 +9,7 @@ Mass Spam Bot For Amino V2
 - pip install colored
 - pip install pyfiglet
 - pip install AminoLab
-- git clone https://github.com/LilZevi/AminoMssBoV2
+- git clone https://github.com/deluvsushi/AminoMssBoV2
 - !Для запуска/For starting!
 - cd AminoMssBoV2
 - python AminoMssBoV2.py
