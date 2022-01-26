@@ -25,7 +25,7 @@ def chats_spam():
     with ThreadPoolExecutor(max_workers=100) as executor:
         try:
             public_chats = sub_client.get_public_chat_threads(size=100)
-            for chat_id, title in zip(public_chats.thread_Id, public_chats.title):
+            for chat_id, title in zip(public_chats.chatId, public_chats.title):
                 print(f"-- Joined into::: {title}")
                 _ = [executor.submit(sub_client.join_chat, chat_id) for _ in range(2)]
                 sending_message = [
