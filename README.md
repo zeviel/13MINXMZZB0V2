@@ -1,5 +1,5 @@
-# AminoMssBoV2
-Mass Spam Bot For Amino V2
+# 13MINXMZZB0V2
+Mass spam bot for amino v2
 
 
 ## Termux
@@ -10,7 +10,7 @@ Mass Spam Bot For Amino V2
 - pip install amino.py
 - pip install colored
 - pip install pyfiglet
-- git clone https://github.com/deluvsushi/AminoMssBoV2
-- cd AminoMssBoV2
-- python AminoMssBoV2.py
+- git clone https://github.com/deluvsushi/13MINXMZZB0V2
+- cd 13MINXMZZB0V2
+- python 13MINXMZZB0V2.py
 ```
