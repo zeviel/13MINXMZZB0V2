@@ -1,5 +1,5 @@
 import amino
-from pyfiglet import figlet__format
+from pyfiglet import figlet_format
 from colored import fore, style, attr
 from concurrent.futures import ThreadPoolExecutor
 attr(0)
