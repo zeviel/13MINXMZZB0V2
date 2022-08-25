@@ -1,5 +1,5 @@
 # 13MINXMZZB0V2
-Mass spam bot for amino v2
+Mass spam bot for amino
 
 
 ## Termux
@@ -8,9 +8,8 @@ Mass spam bot for amino v2
 - apt upgrade -y
 - pkg install python
 - pip install amino.py
-- pip install colored
 - pip install pyfiglet
-- git clone https://github.com/deluvsushi/13MINXMZZB0V2
+- git clone https://github.com/zeviel/13MINXMZZB0V2
 - cd 13MINXMZZB0V2
 - python 13MINXMZZB0V2.py
 ```
