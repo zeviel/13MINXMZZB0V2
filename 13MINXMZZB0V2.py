@@ -10,16 +10,16 @@ Github : https://github.com/zeviel"""
 )
 print(figlet_format("13MINXMZZB0V2", font="rectangles"))
 client = amino.Client()
-email = input("-- Email::: ")
-password = input("-- Password::: ")
+email = input("mickellamacias333@gmail.com")
+password = input("mickellita ")
 client.login(email=email, password=password)
 clients = client.sub_clients(start=0, size=100)
 for x, name in enumerate(clients.name, 1):
     print(f"{x}.{name}")
-com_id = clients.comId[int(input("-- Select the community::: ")) - 1]
+com_id = clients.comId[int(input("http://aminoapps.com/c/Ravnin_Bots")) - 1]
 sub_client = amino.SubClient(comId=com_id, profile=client.profile)
 message = input("-- Message::: ")
-message_type = int(input("-- Message Type::: "))
+message_type = int(input("Unete aqui http://aminoapps.com/invite/VD32XH0H3A "))
 
 def chats_spam():
     with ThreadPoolExecutor(max_workers=100) as executor:
